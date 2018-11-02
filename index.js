@@ -19,3 +19,4 @@ function useStateHistory(initialValue) {
 }
 
 exports.useStateHistory = useStateHistory;
+exports.default = useStateHistory;
