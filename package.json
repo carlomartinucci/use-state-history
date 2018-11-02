@@ -1,17 +1,24 @@
 {
   "name": "use-state-history",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "useStateHistory custom hook for React 16.7.0-alpha.0 - next",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "lint": "eslint src",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir lib",
+    "prepublish": "npm run clean && npm run lint && npm run build"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
   "repository": "carlomartinucci/use-state-history",
   "bugs": {
     "url": "https://github.com/carlomartinucci/use-state-history/issues"
   },
-  "peerDependencies": {
+  "dependencies": {
     "react": "16.7.0-alpha.0 - next"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
@@ -20,5 +27,20 @@
     "state"
   ],
   "author": "Carlo Martinucci <carlo.martinucci@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.5.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "rimraf": "^2.6.2"
+  }
 }
