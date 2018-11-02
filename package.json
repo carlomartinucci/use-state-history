@@ -1,7 +1,7 @@
 {
   "name": "use-state-history",
   "version": "0.0.1",
-  "description": "useStateHistory custom hook for React 16.7",
+  "description": "useStateHistory custom hook for React 16.7.0-alpha.0 - next",
   "main": "index.js",
   "repository": "carlomartinucci/use-state-history",
   "bugs": {
