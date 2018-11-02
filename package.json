@@ -1,0 +1,24 @@
+{
+  "name": "use-state-history",
+  "version": "0.0.1",
+  "description": "useStateHistory custom hook for React 16.7",
+  "main": "index.js",
+  "repository": "carlomartinucci/use-state-history",
+  "bugs": {
+    "url": "https://github.com/carlomartinucci/use-state-history/issues"
+  },
+  "peerDependencies": {
+    "react": "16.7.0-alpha.0 - next"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "history",
+    "state"
+  ],
+  "author": "Carlo Martinucci <carlo.martinucci@gmail.com>",
+  "license": "MIT"
+}
