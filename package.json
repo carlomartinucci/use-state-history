@@ -1,7 +1,7 @@
 {
   "name": "use-state-history",
-  "version": "0.0.2",
-  "description": "useStateHistory custom hook for React 16.7.0-alpha.0 - next",
+  "version": "0.1.0",
+  "description": "useStateHistory custom hook for React 16.8.0",
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
@@ -18,7 +18,7 @@
     "url": "https://github.com/carlomartinucci/use-state-history/issues"
   },
   "dependencies": {
-    "react": "16.7.0-alpha.0 - next"
+    "react": "16.8.0"
   },
   "keywords": [
     "react",
